@@ -185,6 +185,14 @@ section.resume-section .resume-item .resume-date {
   color: #e66400 !important;
 }
 
+.text-tipeado {
+  color: rgb(187, 186, 186) !important;
+}
+.text-tipeado .technology{
+  color: #c65900 !important;
+  font-style: normal;
+}
+
 a {
   color: #e66400;
 }
