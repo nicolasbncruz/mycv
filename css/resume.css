@@ -92,6 +92,10 @@ p.lead {
   color: #e66400;
 }
 
+.list-inline-item{
+color: #fff;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -192,13 +196,14 @@ a:active {
 }
 
 .wrapper {
-  display: inline-flex;
+  /*display: inline-flex;*/
+  display: inline-block;
 }
 .wrapper .icon {
   margin: 0 20px;
   text-align: center;
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -346,3 +351,7 @@ a:active {
 .wrapper .jira:hover .tooltip:before {
   background: rgb(23, 95, 230);
 }
+.skill {  
+  width: 50px;
+  height: 50px;
+ }
